@@ -1,5 +1,5 @@
 AFLL Mini Project - Grammar & Parser for Python Constructs
-This project, developed as part of the Automata Formal Language and Logic (UE23CS242A) course at PES University, demonstrates the application of context-free grammar (CFG) and lexical parsing using Python to describe and validate core constructs of a programming language.
+This mini project was developed as part of the Automata Formal Language and Logic (UE23CS242A) course at PES University. It demonstrates how context-free grammars (CFGs) and lexical analysis can be used to simulate basic language constructs using Python and PLY.
 
 Team Members
 M Niranjan - PES2UG23CS308
@@ -7,48 +7,50 @@ M Niranjan - PES2UG23CS308
 Keerthan P.V - PES2UG23CS272
 
 Objective
-To describe and implement grammar rules for basic constructs of a programming language and create a lexer and parser using PLY (Python Lex-Yacc).
-
-Key Features
-Defined context-free grammars for:
-
-Function declarations
-
-While loops
-
-Datatype declarations
-
-Conditional statements (if-elif-else)
-
-Array declarations
-
-Implemented a Python parser using PLY, capable of handling:
-
-if-else, for, switch-case, function_def, and more
-
-Lexical analysis for Python-like tokens (identifiers, numbers, keywords, etc.)
-
-Parsing test cases to validate the grammar implementation
+To define grammars and implement a lexer and parser that can recognize and validate various programming constructs like loops, functions, conditionals, and declarations.
 
 Technologies Used
 Language: Python
 
-Libraries: PLY (Python Lex-Yacc)
+Library: PLY - Python Lex-Yacc
 
 How to Run
-bash
-Copy
-Edit
-python afll_parser.py
-Make sure ply is installed:
+Install PLY:
 
 bash
 Copy
 Edit
 pip install ply
-Sample Test Cases
-The program parses several code snippets including:
+Run the parser:
 
+bash
+Copy
+Edit
+python afll_parser.py
+Features
+Context-Free Grammar rules implemented for:
+
+Function definitions
+
+While loops
+
+If-elif-else conditionals
+
+Data type declarations
+
+Array declarations
+
+Lexical analyzer for:
+
+Identifiers
+
+Keywords
+
+Numbers
+
+Operators and delimiters
+
+Sample Input Code
 python
 Copy
 Edit
@@ -65,4 +67,8 @@ if (x < y) {
 def function():
     return 0;
 Output
-Displays whether the parsing was successful for each input based on the defined grammar rules.
+Parses each input code and reports whether it follows the defined grammar rules. The output shows success messages or highlights invalid constructs.
+
+Conclusion
+This project showcases the practical implementation of formal grammar concepts by building a lexer and parser for a simplified programming language using Python. It serves as a hands-on learning tool for compiler design and language processing.
+
