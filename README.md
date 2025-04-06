@@ -1,8 +1,4 @@
-Got it! You're aiming for a **clean, professional-looking README** without any unwanted "Copy" icons or clutter — just like the style in your first screenshot. Below is the refined markdown content that you can copy and paste directly into your `README.md` file on GitHub. It will render cleanly with proper formatting and without those unnecessary buttons/icons.
 
----
-
-```markdown
 # AFLL Mini Project - Grammar & Parser for Python Constructs
 
 This mini project was developed as part of the **Automata Formal Language and Logic (UE23CS242A)** course at **PES University**.  
@@ -91,10 +87,6 @@ This project showcases the practical implementation of formal grammar concepts b
 It serves as a hands-on learning tool for compiler design and language processing.
 
 ---
-```
 
----
-
-You can paste this directly into your `README.md`, and GitHub will render it exactly the way you want — neat, organized, and **no copy buttons**.
 
 Want me to include badges or a visual folder structure too?
