@@ -87,6 +87,3 @@ This project showcases the practical implementation of formal grammar concepts b
 It serves as a hands-on learning tool for compiler design and language processing.
 
 ---
-
-
-Want me to include badges or a visual folder structure too?
